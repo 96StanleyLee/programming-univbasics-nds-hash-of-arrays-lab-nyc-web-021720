@@ -14,6 +14,6 @@ def add_character(show, name)
     :jetsons => ["George", "Jane", "Judy", "Elroy"]
   }
 
-  hash[show].push(name)
-  return hash
+return  hash[show].push(name)
+
 end
